@@ -1,0 +1,6 @@
+name = "zpg6-profile"
+main = "build/worker/shim.mjs"
+compatibility_date = "2024-11-23"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
