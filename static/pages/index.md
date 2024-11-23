@@ -11,3 +11,5 @@ Written in async Rust 🦀 using Axum, compiled to Web Assembly 🟪, then serve
 - Custom `include_markdown!` macro for including markdown files as HTML strings at compile time.
 - Simple.css (minified), some client-side Javascript, and any assets are injected directly into the HTML page, sending down one fully-ready HTML page to the client.
 - ...more to come!
+
+The source code for this site is available on [GitHub](https://github.com/zpg6/zpg6-profile).
