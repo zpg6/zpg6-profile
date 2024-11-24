@@ -1,6 +1,6 @@
 [package]
 name = "zpg6-profile"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = [ "Zach Grimaldi <zpg6@pitt.edu>" ]
 

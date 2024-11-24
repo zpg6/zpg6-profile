@@ -22,6 +22,7 @@ fn router() -> Router {
         .route("/favicon.ico", get(favicon))
         .route("/", get(root))
         .route("/projects", get(projects))
+        .fallback(get(not_found))
 }
 
 /// Handler for the `/favicon.ico` route.
@@ -42,4 +43,8 @@ async fn root() -> axum::http::Response<axum::body::Body> {
 /// Handler for the `/projects` route.
 async fn projects() -> axum::http::Response<axum::body::Body> {
     wrap_html_with_header(include_markdown!("../static/pages/projects.md"))
+}
+
+async fn not_found() -> axum::http::Response<axum::body::Body> {
+    wrap_html_with_header(include_markdown!("../static/pages/404.md"))
 }
