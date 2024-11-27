@@ -5,7 +5,8 @@ pub fn wrap_html_with_header(body_html: String) -> axum::http::Response<axum::bo
 <!DOCTYPE html>
 <html>
     <head>
-       <meta charset="UTF-8"> 
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Zach Grimaldi</title>
        <style>{}</style>
     </head>
