@@ -10,6 +10,7 @@ This is the source code for my personal website, [zachgrimaldi.com](https://zach
 - ⛅️ [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/) for deploying to Cloudflare Workers.
 - 🦀 [Workers Rust Bindings](https://github.com/cloudflare/workers-rs) for receiving requests, and eventually binding to other services like Workers KV or D1 databases.
 - 📄 [pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark/) to power our pre-processing of Markdown to HTML.
+- ⚙️ [Wasm target for Rust](https://developers.cloudflare.com/workers/languages/rust/) to compile the Rust code to WebAssembly.
 - 🎨 [Simple.css](https://simplecss.org/) for easy styling of HTML coming from Markdown.
 
 ## Commands
