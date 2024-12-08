@@ -2,6 +2,8 @@
 
 This is the source code for my personal website, [zachgrimaldi.com](https://zachgrimaldi.com).
 
+![Screenshot of the website](./docs/homepage-screenshot.png)
+
 ## Changelog
 
 | Date       | Version | Description                                          |
